@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100dvh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background_banner.jpg) ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    position: absolute;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0% 12%;
+    /* border: 1px solid #ccc; */
+}
+
+.div-nav-logo{
+    float: left;
+    padding-top: 1%;
+}
+.nav-netflix-logo{
+    width: 175px;
+    height: 40px;
+}
+
+.navbar-items {    
+    float: right;
+    padding-top: 2%;
+}
+
+.navbar-items a {
+    width: max-content;
+    margin: 8px;
+    background-color: rgb(223, 19, 19);
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white;
+    font-size:medium;
+    text-decoration: none;
+}
+
+.banner-text {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #fff; */
+    text-align: center;
+}
+
+.banner-text h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 2%;
+}
+
+.banner-text h1 {
+    font-weight:800;
+    font-size: 300%;
+}
+
+.banner-text h3 {
+    font-size: 150%;
+}
+
+.banner-text h5 {
+    font-size: 100%;
+}
+
+.banner-text div {
+    width: 100%;
+    
+}
+
+.banner-text div form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.banner-text div form input {
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+    width: 25%;
+    height: 50px;
+    opacity: 35%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 1%;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 3%;
+
+}
+
+.banner-text div form input text {
+    opacity: 100%;
+}
+
+.banner-text div form button {
+    width: max-content;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(223, 19, 19);
+    border-color: rgb(223, 19, 19);
+}

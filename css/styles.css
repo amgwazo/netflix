@@ -30,6 +30,14 @@ nav {
     padding: 0% 12%;
     /* border: 1px solid #ccc; */
 }
+ 
+.section-divider {  
+    width: 50%;
+    height: 10px;
+    background-color: rgb(78, 75, 75);
+    color:  rgb(78, 75, 75);
+    border: 1px;
+}
 
 .div-nav-logo{
     float: left;
@@ -101,21 +109,17 @@ nav {
 
 .banner-text div form input {
     background-color: rgb(0, 0, 0);
-    color:white !important;
-    width: 30%;
+    /* color:white !important; */
+    width: 25%;
     height: 50px;
-    opacity: 35%;
+    opacity: 55%;
     border: 1px solid white;
     border-radius: 5px;
     margin-right: 1%;
     font-size: medium;
     font-weight: bold;
-    padding-left: 3%;
+    padding-left: 1%;
 
-}
-
-.banner-text div form input text {
-    opacity: 100%;
 }
 
 .banner-text div form button {
@@ -131,36 +135,64 @@ nav {
 }
 
 main {
-    background-color: darkgrey;
+    background-color: rgb(27, 25, 25);
 }
 
 section {
     background-color: black;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 0%;
+}
+
+main span a{
+    float: left;
+    text-align: left;
+    color: gray;
+    margin: 6% 0% 1% 3%;
+    font-size: smaller;
 }
 
 footer {
 
     width: 100%;
-    padding: 6%  25% 6% 15%;
+    padding: 0% 25% 6% 3%;
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    color: gray;
 
 }
 
 footer span {
-    /* width: 30%; */
-    /* border: 1px solid white; */
     width: 33%;
     min-width: 100px;
-    /* border: 1px solid white; */
 }
 
 footer span a {
     float: left;
     text-align: left;
-    color: white;
+    color: gray;
     margin-top: 2%;
+    font-size: smaller;
+}
+
+footer div {
+    margin-top: 3%;
+}
+
+footer div select {
+    min-width: max-content;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    padding: 3% 20%;
+    margin-bottom: 10%;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+footer div span {
     font-size: smaller;
 }
 
@@ -168,6 +200,7 @@ footer span a {
 
 /**** MEDIA QUERIES ****/
 
+/* @media screen and (max-width:1080px) { */
 @media screen and (max-width:1080px) {
 
         header {
@@ -210,17 +243,17 @@ nav {
         }
 
         .banner-text div form input {
-                    width: 55%;
+                    width: 30%;
                  }
     
     
 }
 
-@media screen and (max-width:700px) {
+/* @media screen and (max-width:700px) { */
+@media screen and (max-width:992px) {
 
 
     .banner-text div form input {
-            width: 55%;
             height: 35px;
             font-size: smaller;
     
@@ -232,7 +265,8 @@ nav {
 
 }
 
-@media screen and (max-width:535px) {
+/* @media screen and (max-width:535px) { */
+@media screen and (max-width:768px) {
 
     header {
         
@@ -263,9 +297,9 @@ nav {
 
     }
 
-    .banner-text div form input text {
-        opacity: 100%;
-    }
+     .banner-text div form input {
+        width: 55%;
+    } 
 
     .banner-text div form button {
         /* margin: auto; */
@@ -280,7 +314,8 @@ nav {
 }
 
 
-@media screen and (max-width: 300px){
+/* @media screen and (max-width: 300px){ */
+@media screen and (max-width: 576px) {
     header {
  
             min-height: 90dvh;           
@@ -298,11 +333,12 @@ nav {
     }
 
         .banner-text div form input {
+            margin: 10px auto;
             width: 95%;
         }
 
     .banner-text div form button {
-        margin: auto;
+        margin: 10px auto;
                  
     }
         

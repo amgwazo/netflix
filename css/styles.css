@@ -210,7 +210,7 @@ nav {
         }
 
         .banner-text div form input {
-                    width: 45%;
+                    width: 55%;
                  }
     
     
@@ -218,6 +218,13 @@ nav {
 
 @media screen and (max-width:700px) {
 
+
+    .banner-text div form input {
+            width: 55%;
+            height: 35px;
+            font-size: smaller;
+    
+        }
     footer span {
             
             width: 45%;
@@ -233,74 +240,26 @@ nav {
         
             }
         
-    /* nav {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            } */
-        
-
-    /* .nav-netflix-logo {
-        width: 70px;
-        height: 20px;
-    } */
-
-    /* .navbar-items a {
-        width: max-content;
-        margin: 8px;
-        background-color: rgb(223, 19, 19);
-        border-radius: 5px;
-        padding: 4px 7.5px;
-        color: white;
-        font-size: small;
-        text-decoration: none;
-    } */
-
+  
     .banner-text {
         top: 20%;
                 }
 
     .banner-text h1 {
         /* font-weight: bold; */
-        font-size: large;
-    }
-
-    .banner-text h3 {
         font-size: medium;
     }
 
+    .banner-text h3 {
+        font-size: small;
+    }
+
     .banner-text h5 {
-        font-size: small
+        font-size: smaller
     }
 
     .banner-text div {
         width: 100%;
-
-    }
-
-    .banner-text div form {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-
-    }
-
-    .banner-text div form input {
-        /* background-color: rgb(0, 0, 0); */
-        background-color: white;
-        opacity: 1;
-        color: red !important;
-        width: 75%;
-        height: 50px;
-        opacity: 35%;
-        border: 1px solid white;
-        border-radius: 5px;
-        margin: auto;
-        font-size: small;
-        font-weight: bold;
-        padding-left: 3%;
 
     }
 
@@ -309,16 +268,9 @@ nav {
     }
 
     .banner-text div form button {
-        width: max-content;
-        margin: auto;
-        padding-left: 3%;
-        padding-right: 3%;
-        border-radius: 5px;
-        font-size: large;
-        font-weight: bold;
-        color: #fff;
-        background-color: rgb(223, 19, 19);
-        border-color: rgb(223, 19, 19);
+        /* margin: auto; */
+        font-size: smaller;
+        
     }
 
         footer span {
@@ -328,11 +280,10 @@ nav {
 }
 
 
-@media screen and (max-width: 300px)
-{
+@media screen and (max-width: 300px){
     header {
  
-            min-height: 60dvh;           
+            min-height: 90dvh;           
     
         }
 
@@ -343,7 +294,16 @@ nav {
         }
    
     .banner-text {
-        top: 15%;
+        top: 20%;
+    }
+
+        .banner-text div form input {
+            width: 95%;
+        }
+
+    .banner-text div form button {
+        margin: auto;
+                 
     }
         
 

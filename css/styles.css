@@ -4,10 +4,21 @@
     box-sizing: border-box;
 }
 
+.lightTheme {
+        background-color: rgb(155, 150, 150);
+        color: white;
+}
+
+
 body{
     background-color: black;
     font-family: "Bebas Neue", "Poppins", sans-serif;
     color: white;
+}
+
+.light-body {
+    background-color: rgb(157, 159, 165);
+    color: black;
 }
 
 h2 {
@@ -37,6 +48,12 @@ header {
     margin-bottom:0;
 }
 
+.light-header {
+    background-color: rgba(190, 179, 179, 0.7);
+    /* background-blend-mode:lighten; */
+    color: white;
+}
+
 nav {
     position: absolute;
     top: 3%;
@@ -61,7 +78,7 @@ nav {
     padding-top: 2%;
 }
 
-.navbar-items a {
+.navbar-items a, button {
     /* width: max-content; */
     margin: 8px;
     background-color: rgb(223, 19, 19);
@@ -70,6 +87,30 @@ nav {
     color: white;
     font-size:medium;
     text-decoration: none;
+}
+
+  .btn-light {
+    /* width: max-content; */
+    margin: 8px;
+    background-color: #d5dbe3;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: rgb(223, 19, 19);
+    font-size: medium;
+    text-decoration: none;
+    border: 0;
+}
+
+ .btn-dark {
+    /* width: max-content; */
+    margin: 8px;
+    background-color: #575b63;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: rgb(223, 19, 19);
+    font-size: medium;
+    text-decoration: none;
+    border: 0;
 }
 
 .banner-text {
@@ -159,6 +200,10 @@ main {
     overflow-x: hidden;
 }
 
+.light-main {
+    background-color: white;
+    color: black;
+}
 section {
     background-color: black;
     /* margin-bottom: 3px; */
@@ -168,7 +213,10 @@ section {
     
 }
 
-
+.light-section {
+    background-color: rgb(155, 150, 150);
+    border-top: 8px solid rgb(240, 234, 234);
+}
 
 main span a{
     float: left;
@@ -177,6 +225,8 @@ main span a{
     margin: 6% 0 1% 3%;
     font-size: smaller;
 }
+
+
 
 .enjoy-on-tv {
 
@@ -233,10 +283,18 @@ main span a{
         /* FAQ Section code mostly courtesy of GreatStack Youtube video at the following url https: //www.youtube.com/watch?v=Tgat3-prVv4&t=341s . I tried to implement this using Bootstrap, whose code could have been leaner and cleaner but i realized I need to spend more time on Bootstrap so for the sake of submission deadlines, I had to go with below solution. 
         
         I'm still happy with this as I learnt a few more tricks in the process */
-
+      
         .faq-section {
             border-bottom: 8px solid #222;
             align-items: center;
+        }
+
+        .light-faq-section {
+            background-color: rgb(155, 150, 150);
+            /* color: black; */
+            border-top: 8px solid rgb(240, 234, 234);
+            border-bottom: 8px solid rgb(240, 234, 234);
+            /* color: white; */
         }
 
         .accordion {
@@ -302,7 +360,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: gray;
+    /* color: gray; */
 
 }
 
@@ -314,7 +372,8 @@ footer span {
 footer span a {
     float: left;
     text-align: left;
-    color: gray;
+    /* color: gray; */
+    color: white;
     margin-top: 2%;
     font-size: smaller;
 }

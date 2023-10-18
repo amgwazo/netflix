@@ -7,7 +7,7 @@
 #coupon {
   height: 400px;
   width: 600px;
-  background-color: rgb(187, 162, 162);
+  background-color: rgba(187, 162, 162, 0.96);
   position: absolute;
   margin-top: 10%;
   margin-left: 34%;
@@ -490,8 +490,13 @@ footer div span {
     min-height: 60vh;
   }
 
+  .navbar-items{
+    display: flex;
+    flex-direction: column;
+  }
+
   .banner-text {
-    top: 20%;
+    top: 35%;
   }
 
   .banner-text h1 {
@@ -538,7 +543,7 @@ footer div span {
   }
 
   .banner-text {
-    top: 20%;
+    top: 35%;
   }
 
   .banner-text div form input {

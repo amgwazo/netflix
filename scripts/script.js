@@ -18,7 +18,7 @@ window.onload = onloadPage();
 
 function closeCoupon() {
   document.getElementById("coupon").style.visibility = "hidden";
-  document.getElementById("search").style.opacity = "1";
+  document.getElementById("coupon").style.opacity = "1";
 }
 
 let btn = document.getElementById("btn");

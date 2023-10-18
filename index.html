@@ -33,8 +33,23 @@
     <link rel="icon" href="./images/netflix-logo1.png" />
   </head>
   <body>
+    <div id="coupon">
+      <button onClick="closeCoupon()">&times;</button>
+      <div>
+        <h1>Massive discounts just for You!</h1>
+        <h1 class="discount">75% Off Your Purchase!</h1>
+ 
+      <span>
+        <h4>Use Code</h4>
+        <h2 id="promocode"  class="discount"></h2>
+      </span>
+
+           </div>
+    </div>
+
     <header id="header">
       <!-- <img src="./images/background_banner.jpg" class="banner-img" alt="Netflix Movies Snapshot" /> -->
+
       <nav>
         <div class="div-nav-logo">
           <img
@@ -45,11 +60,7 @@
         </div>
         <div class="navbar-items">
           <a href="#">Sign In</a>
-          <button
-            onClick="changeMode()"
-            id="btn">
-            Light Mode
-          </button>
+          <button onClick="changeMode()" id="btn">Light Mode</button>
         </div>
       </nav>
 
@@ -252,9 +263,7 @@
                   id="first"
                   title="accordion"
                 />
-                <label for="first"
-                  >What is Netflix?</label
-                >
+                <label for="first">What is Netflix?</label>
                 <div class="content">
                   <p>
                     Netflix is a streaming service that offers a wide variety of
@@ -416,19 +425,14 @@
       <!-- <span id="contact-link" class="darkSpan">
         <a href="#" id="contact-link-a">Questions? Contact us.</a>
       </span> -->
-
-      
-      
     </main>
 
     <footer>
-       <span id="contact-link">
+      <span id="contact-link">
         <a href="#" id="contact-link-a">Questions? Contact us.</a>
       </span>
       <span></span>
       <span></span>
-
-
 
       <span><a href="#">FAQ</a></span>
       <span><a href="#">Help Center</a></span>
